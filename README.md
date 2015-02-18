@@ -33,7 +33,14 @@ To print out all your models run
 ```
 db.all_models
 ```
-
+To print out all your columns run 
+```
+db.all_columns
+```
+To print out all your models with their associations run
+```
+db.all_models_with_association
+```
 
 ## Contributing
 

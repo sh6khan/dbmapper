@@ -40,7 +40,7 @@ module Dbmapper
 			ActiveRecord::Base.descendants.each do |model|
 				text_file.write(model)
 				text_file.write("\n")
-				model.relfect_on_all_associations.map(&:name).each do |assocations|
+				model.reflect_on_all_associations.map(&:name).each do |assocations|
 					association_string = association_string + " #{assocations},"
 				end 
 				text_file.write(association_string)
