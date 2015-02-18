@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["sh6khan"]
   spec.email         = ["sadman.khan999@gmail.com"]
   spec.summary       = %q{Maps out all the models in your database into a file}
-  spec.description   = %q{Same as summary}
+  spec.description   = %q{Mapp out all the models in your database into a file}
   spec.homepage      = ""
   spec.license       = "MIT"
 
