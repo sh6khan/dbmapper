@@ -14,13 +14,14 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install dbmapper
 
 ## Usage
 
 Start by opening up the rails console with `rails c`
+the very first thing that you want to do is load up the databse base
+```
+Rails.application.eager_load!
+```
 then create a new instance of the dbmapper with 
 ```
 db = Dbmapper::DatabaseMapper.new
